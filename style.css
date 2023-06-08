@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+canvas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    height: 500px;
+    width: 1100px;
+    margin-top: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.title-child{
+    background-color: orange;
+    color: aliceblue;
+    padding: 20px;
+}
+.title-child:hover{
+    margin: 0px 300px;
+    background-color: rgb(204, 68, 68);
+    color:rgb(251, 227, 196);
+    transition-duration: 0.5s;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    visibility:hidden;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 10px 60px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.hit-info{
+    display: flex;
+    justify-content: center;
+}
+.btn-child{
+    height: 50px;
+    width: 100px;
+    margin: 0px 30px;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: brown;
+    color: aliceblue;
+}
+.btn-child:hover{
+    background-color: bisque;
+    color: black;
+    text-decoration: underline;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}

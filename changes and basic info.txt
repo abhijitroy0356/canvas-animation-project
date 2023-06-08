@@ -1,0 +1,9 @@
+1. Used basic html , css and Javascript to make the whole project
+
+2. added user interactive hover effects
+
+3. rather than making the circle to hold a single color when the arrow is travelling made a little change on it , and now the circle will keep changing color until it get touched by the arrow
+
+4. added notification bar when the arrow touch the circle
+
+5. clean hover effect on title
